@@ -134,6 +134,7 @@
             this.ConfirmBtn.TabIndex = 16;
             this.ConfirmBtn.Text = "Confirm";
             this.ConfirmBtn.UseVisualStyleBackColor = true;
+            this.ConfirmBtn.Click += new System.EventHandler(this.ConfirmBtn_Click);
             // 
             // LastNameTxtBox
             // 
