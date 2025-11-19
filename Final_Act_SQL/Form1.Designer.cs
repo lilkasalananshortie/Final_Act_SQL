@@ -172,6 +172,7 @@
             this.RegisterBtn.TabIndex = 9;
             this.RegisterBtn.Text = "Register";
             this.RegisterBtn.UseVisualStyleBackColor = true;
+            this.RegisterBtn.Click += new System.EventHandler(this.RegisterBtn_Click);
             // 
             // UpdateBtn
             // 
@@ -182,6 +183,7 @@
             this.UpdateBtn.TabIndex = 10;
             this.UpdateBtn.Text = "Update";
             this.UpdateBtn.UseVisualStyleBackColor = true;
+            this.UpdateBtn.Click += new System.EventHandler(this.UpdateBtn_Click);
             // 
             // RefreshBtn
             // 
@@ -192,6 +194,7 @@
             this.RefreshBtn.TabIndex = 11;
             this.RefreshBtn.Text = "Refresh";
             this.RefreshBtn.UseVisualStyleBackColor = true;
+            this.RefreshBtn.Click += new System.EventHandler(this.RefreshBtn_Click);
             // 
             // label9
             // 
@@ -255,6 +258,15 @@
             // 
             this.ProgramCBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ProgramCBox.FormattingEnabled = true;
+            this.ProgramCBox.Items.AddRange(new object[] {
+            "BSIT",
+            "BSCS",
+            "BSHM",
+            "BSTM",
+            "BSP",
+            "BSN",
+            "BSBA",
+            "BSEduc"});
             this.ProgramCBox.Location = new System.Drawing.Point(584, 48);
             this.ProgramCBox.Name = "ProgramCBox";
             this.ProgramCBox.Size = new System.Drawing.Size(234, 32);
@@ -273,6 +285,7 @@
             this.Controls.Add(this.FormPanel);
             this.Name = "FrmClubRegistration";
             this.Text = "FrmClubRegistration";
+            this.Load += new System.EventHandler(this.FrmClubRegistration_Load);
             this.FormPanel.ResumeLayout(false);
             this.FormPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataTable)).EndInit();

@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.label9 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.StudentIDCBox = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -55,14 +55,15 @@
             this.label9.TabIndex = 8;
             this.label9.Text = "Student ID: ";
             // 
-            // comboBox1
+            // StudentIDCBox
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(13, 42);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(226, 33);
-            this.comboBox1.TabIndex = 9;
+            this.StudentIDCBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.StudentIDCBox.FormattingEnabled = true;
+            this.StudentIDCBox.Location = new System.Drawing.Point(13, 42);
+            this.StudentIDCBox.Name = "StudentIDCBox";
+            this.StudentIDCBox.Size = new System.Drawing.Size(226, 33);
+            this.StudentIDCBox.TabIndex = 9;
+            this.StudentIDCBox.SelectedIndexChanged += new System.EventHandler(this.StudentIDCBox_SelectedIndexChanged);
             // 
             // label1
             // 
@@ -200,7 +201,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.StudentIDCBox);
             this.Controls.Add(this.label9);
             this.Name = "FrmUpdateMember";
             this.Text = "FrmUpdateMember";
@@ -212,7 +213,7 @@
         #endregion
 
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox StudentIDCBox;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;

@@ -14,7 +14,7 @@ namespace Final_Act_SQL
 
         private string connectionString;
         private DataTable dataTable;
-        private BindingSource bindingSource;
+        public BindingSource bindingSource;
 
         public string _FirstName, _MiddleName, _LastName, _Gender, _Program;
         public string _Age;
@@ -22,7 +22,7 @@ namespace Final_Act_SQL
 
         public ClubRegistrationQuery()
         {
-            connectionString = "Data Source=LAB-A-PC00;Initial Catalog=ClubDbMhaku;User ID=manalili.m;Password=***********;Trust Server Certificate=True";
+            connectionString = "Data Source=LAB-A-PC00;Initial Catalog=ClubDbMhaku;User ID=manalili.m;Password=12345;";
             sqlConnect = new SqlConnection(connectionString);
             dataTable = new DataTable();
             bindingSource = new BindingSource();
