@@ -171,7 +171,7 @@
             // GenderTxtBox
             // 
             this.GenderTxtBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.GenderTxtBox.Location = new System.Drawing.Point(17, 456);
+            this.GenderTxtBox.Location = new System.Drawing.Point(17, 543);
             this.GenderTxtBox.Name = "GenderTxtBox";
             this.GenderTxtBox.Size = new System.Drawing.Size(212, 29);
             this.GenderTxtBox.TabIndex = 21;
@@ -179,7 +179,7 @@
             // ProgramTxtBox
             // 
             this.ProgramTxtBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ProgramTxtBox.Location = new System.Drawing.Point(17, 539);
+            this.ProgramTxtBox.Location = new System.Drawing.Point(17, 457);
             this.ProgramTxtBox.Name = "ProgramTxtBox";
             this.ProgramTxtBox.Size = new System.Drawing.Size(212, 29);
             this.ProgramTxtBox.TabIndex = 22;
